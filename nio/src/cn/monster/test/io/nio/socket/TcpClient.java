@@ -65,7 +65,7 @@ public class TcpClient {
     }
     
     public static void main(String[] args) throws IOException {
-        // 本地IP
+        // 本地IP，I Can
         TcpClient client = new TcpClient("127.0.0.1", 1222);
         client.sendMsg("hi, 你是猪吗？");
     }
